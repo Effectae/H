@@ -11,7 +11,7 @@ white_list = {
         ".cargo/config.toml",
     ],
     "notes": ["notes/**"],
-    "retain": ["retain/**"],
+    "retain": ["retain/**", "README.md"],
 }
 
 
