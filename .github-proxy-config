@@ -1,0 +1,7 @@
+# Improve the network connection from mainland China to GitHub website.
+
+# gh-proxy.org
+# tvv.tw
+
+[url "https://tvv.tw/https://github.com"]
+	insteadOf = https://github.com

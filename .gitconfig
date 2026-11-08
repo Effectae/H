@@ -1,0 +1,9 @@
+[user]
+	name = Effectae
+	email = effectae@163.com
+[pull]
+	rebase = true
+
+
+[include]
+	path = ~/.github-proxy-config
