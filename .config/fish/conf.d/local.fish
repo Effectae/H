@@ -7,10 +7,11 @@ function start-sway
 end
 
 if not set -q "$ANDROID_HOME" 
-    set ANDROID_HOME "$HOME/Android"
+    set -x ANDROID_HOME "$HOME/Android"
     if test -d "$ANDROID_HOME"
         set -a PATH "$ANDROID_HOME/cmdline-tools/latest/bin"
-        set -x ANDROID_HOME
+    else
+        set -e ANDROID_HOME
     end
 end
 
