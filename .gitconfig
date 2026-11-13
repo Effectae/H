@@ -7,3 +7,5 @@
 
 [include]
 	path = ~/.github-proxy-config
+[http]
+	postBuffer = 524288000
