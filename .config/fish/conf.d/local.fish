@@ -36,7 +36,7 @@ set_home LOCAL_LLVM "$HOME/.local/llvm" -Bp
 
 set_home GO "$HOME/go" -B
 set_home CARGO "$HOME/.cargo" -Bp
-set_home ZIG "$HOME/.local/zig" -B
+# set_home ZIG "$HOME/.local/zig" -B
 set_home LOCAL_PYTHON "$HOME/dev_env/local_pip" -Bp
 
 set_home FLUTTER "$HOME/dev_env/flutter/flutter" -B
