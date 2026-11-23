@@ -19,4 +19,3 @@ fi
 
 FISH_SHELL="/usr/bin/fish"
 [ -x "$FISH_SHELL" ] && [ -z "$USE_BASH" ] && SHELL="$FISH_SHELL" exec "$SHELL"
-. "/home/primary/.deno/env"

@@ -5,6 +5,3 @@
 if [[ -f ~/.bashrc ]] ; then
 	. ~/.bashrc
 fi
-
-if [ -e /home/primary/.nix-profile/etc/profile.d/nix.sh ]; then . /home/primary/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
-. "/home/primary/.deno/env"
