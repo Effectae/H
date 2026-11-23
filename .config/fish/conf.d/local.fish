@@ -17,7 +17,7 @@ end
 
 abbr cls clear
 
-abbr lms 'meson setup build --buildtype release --prefix "~/.local"'
+abbr lms 'meson setup build --buildtype release --prefix "~/.local/meson"'
 abbr msi meson install -C build
 
 set -l cms 'cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -GNinja -Bbuild'
